@@ -1,0 +1,12 @@
+{
+  "name": "微风天气同步器",
+  "icon": "icon.png",
+  "version": "0.6.0",
+  "description": "用于向手表端微风天气同步天气数据",
+  "author": "Solan",
+  "website": "https://weather.solan.work",
+  "entry": "plugin.wasm",
+  "wasi_version": 3,
+  "api_level": 4,
+  "permissions": ["network", "device", "thirdpartyapp", "interconnect", "register_interconnect_recv"]
+}
